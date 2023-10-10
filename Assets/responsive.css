@@ -1,0 +1,142 @@
+/* Tablets */
+@media all and (max-width: 1000px) {
+    nav ul {
+        width: 70%;
+    }
+
+    .logo {
+        font-size: 34px;
+    }
+
+    .logo span {
+        font-size: 30px;
+    }
+
+    /* MAIN SECTION */
+    main {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+
+    .kolom {
+        margin: auto !important;
+        padding: 0 7%;
+    }
+
+    aside {
+        padding: 50px 7%;
+        z-index: -2;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+    .sub-judul {
+        font-size: 32px;
+    }
+
+    a.btn-hire {
+        background: #021075;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    a.btn-hire:hover {
+        background: #3f72af;
+        text-decoration: none;
+    }
+
+   .kolom p {
+        margin: 20px 0px 20px 0px;
+        padding: 10px 0px 10px 0px;
+        line-height: 1.35;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .contact-form{
+        padding: 0px 2%;
+    }
+}
+
+
+
+/* Mobile Phone */
+@media screen and (max-width: 670px) {
+
+    img{
+        width: 350px;
+        height: 350px;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        padding: 12px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(104, 131, 155, 0.1);
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .sub-judul {
+        font-size: 28px;
+        margin: 5px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .logo span {
+        font-size: 26px;
+    }
+
+    .menu-toggle {
+        display: flex !important;
+    }
+    
+
+
+    .card{
+        width: fit-content;
+    }
+    .card img{
+        width: 200px;
+        height: 200px;
+    }
+    .contact-form{
+        padding: 0px 1%;
+    }
+   
+
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo{
+        margin-bottom: 5px;
+    }
+    .footer-icons{
+        margin: 5%;
+    }
+    .footer-contact-info {
+        margin:auto !important;
+    }
+
+}
